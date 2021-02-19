@@ -29,17 +29,7 @@ body {
 .grid-item {
     border-radius: 0;
     padding: 15px 10px;
-    border: 1px solid rgba(0, 0, 0, 0.822); 
-}
-
-.orange-bord {
-    border: 1px solid rgb(238, 171, 48);
-    border-top: 1px solid whitesmoke;
-    border-right: 1px solid whitesmoke;
-}
-
-.white-bord {
-    border: 1px solid whitesmoke;
+    border: 1px solid rgba(148, 142, 142, 0.822); 
 }
 
 button {
@@ -73,6 +63,6 @@ label {
 }
 
 .equals {
-    grid-row: 3 / 7;
+    grid-row: 4 / 7;
     background-color: rgb(238, 171, 48);
 }
