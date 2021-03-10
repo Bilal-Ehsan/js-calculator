@@ -29,7 +29,7 @@ body {
 .grid-item {
     border-radius: 0;
     padding: 15px 10px;
-    border: 1px solid rgba(148, 142, 142, 0.822); 
+    border: 1px solid rgba(148, 142, 142, 0.822);
 }
 
 button {
@@ -46,7 +46,7 @@ button:hover {
     font-weight: bold;
 }
 
-.equals:hover {
+#equals:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.822);
     color: white;
@@ -60,9 +60,10 @@ label {
     font-size: 2.2rem;
     color: white;
     background-color: rgba(0, 0, 0, 0.822);
+    height: 70px;
 }
 
-.equals {
+#equals {
     grid-row: 4 / 7;
     background-color: rgb(238, 171, 48);
 }
